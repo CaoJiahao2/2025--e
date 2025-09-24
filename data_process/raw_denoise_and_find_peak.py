@@ -52,9 +52,9 @@ except Exception:
 BASE_DIR   = "/home/user1/data/learn/sumo"
 IN_REL     = "data/raw_resampled_12kHz"
 IN_ROOT    = os.path.join(BASE_DIR, IN_REL)
-OUT_ROOT   = os.path.join(BASE_DIR, "data/peak-envelope_denoised_12kHz")
+OUT_ROOT   = os.path.join(BASE_DIR, "data/peak-1-envelope_denoised_12kHz")
 REPORT_DIR = os.path.abspath("./reports")
-FIG_DIR    = os.path.join(REPORT_DIR, "peak-包络谱图")
+FIG_DIR    = os.path.join(REPORT_DIR, "peak-1-包络谱图")
 
 FS   = 12000.0
 NYQ  = FS/2
